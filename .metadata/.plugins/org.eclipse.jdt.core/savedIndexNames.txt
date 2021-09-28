@@ -58,7 +58,6 @@ INDEX VERSION 1.130+C:\Users\Administrator\Desktop\GroupProject\.metadata\.plugi
 3572875971.index
 3207850065.index
 2019411151.index
-4020360150.index
 4132605527.index
 415623158.index
 2741690592.index
@@ -147,4 +146,3 @@ INDEX VERSION 1.130+C:\Users\Administrator\Desktop\GroupProject\.metadata\.plugi
 3911283725.index
 262074491.index
 3423860080.index
-633279532.index

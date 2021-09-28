@@ -6391,3 +6391,9 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2021-09-27 22:01:59,200 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AccountsClient/src/main/resources
 2021-09-27 22:01:59,225 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AccountsClient/src/test/java
 2021-09-27 22:02:00,156 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 31 sec
+2021-09-27 22:29:23,184 [Worker-12] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: EurekaClient:BankingClient:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\GroupProject\BankingClient\pom.xml.
+2021-09-27 22:29:42,961 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BankingClient/src/main/java
+2021-09-27 22:29:42,962 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BankingClient/src/main/resources
+2021-09-27 22:29:42,980 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /BankingClient/src/main/resources
+2021-09-27 22:29:42,995 [Worker-12] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /BankingClient/src/test/java
+2021-09-27 22:29:44,193 [Worker-12] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 34 sec
