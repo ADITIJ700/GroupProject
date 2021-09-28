@@ -20,10 +20,10 @@ public class CustomerController {
 	public List<Customer>list(){
 		return service.listAll();
 	}
-	@GetMapping("/customers/{cid}")
-	public ResponseEntity<Customer>get(@PathVariable Integer cid){
+	@GetMapping("/customers/{custid}")
+	public ResponseEntity<Customer>get(@PathVariable Integer custid){
 		try{
-			Customer customer=service.get(cid);
+			Customer customer=service.get(custid);
 			return new ResponseEntity<Customer>(customer,HttpStatus.OK);
 		}
 		catch(NoSuchElementException e){
@@ -35,10 +35,10 @@ public class CustomerController {
 		service.save(customer);
 	}
 	
-	@PutMapping("/customers/{cid}")
-	public ResponseEntity<?>update(@RequestBody Customer customer,@PathVariable Integer cid){
+	@PutMapping("/customers/{custid}")
+	public ResponseEntity<?>update(@RequestBody Customer customer,@PathVariable Integer custid){
 		try{
-			Customer existCustomer = service.get(cid);
+			Customer existCustomer = service.get(custid);
 			service.save(customer);
 			return new ResponseEntity<>(HttpStatus.OK);
 		}

@@ -22,8 +22,8 @@ public class CustomerService {
 	public void save(Customer customer){
 		repo.save(customer);
 	}
-	public Customer get(Integer cid){
-		return repo.findById(cid).get();
+	public Customer get(Integer custid){
+		return repo.findById(custid).get();
 	}
 	
 }
