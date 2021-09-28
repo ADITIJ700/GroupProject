@@ -6385,3 +6385,9 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2021-09-26 21:20:50,032 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-09-26 21:20:50,033 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2021-09-26 21:20:50,045 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-09-27 22:01:42,744 [Worker-8] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: EurekaClient:Accounts:0.0.1-SNAPSHOT @ C:\Users\Administrator\Desktop\GroupProject\AccountsClient\pom.xml.
+2021-09-27 22:01:59,182 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AccountsClient/src/main/java
+2021-09-27 22:01:59,183 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AccountsClient/src/main/resources
+2021-09-27 22:01:59,200 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /AccountsClient/src/main/resources
+2021-09-27 22:01:59,225 [Worker-8] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /AccountsClient/src/test/java
+2021-09-27 22:02:00,156 [Worker-8] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 31 sec
